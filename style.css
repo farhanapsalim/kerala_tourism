@@ -1,0 +1,28 @@
+.district_img
+{
+   border-radius:50%
+}
+/* .hwll
+{
+ background-color:black 
+} */
+#decoration
+{
+   text-decoration: none;
+}
+
+#hover_div
+{
+   height: 200px;
+   width: 200px;
+   border: 1px solid black;
+   display: none;
+}
+.ggf:hover #hover_div
+{
+   display: block;
+}
+.background
+{
+   background-color: #198754;
+}

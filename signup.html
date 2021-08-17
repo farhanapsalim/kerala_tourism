@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                            <meta charset="UTF-8">
+                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                         <!-- bootstrap -->
+                            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+                            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+                            <scrzipt src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+                            
+                            <!-- font-awsome link -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <!-- font-awsome link -->
+                            
+                            
+                            
+                            <!-- mdb -->
+                            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+                            <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+                            <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+                            <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+                            <!-- mdb -->
+                            
+                            
+                            <!-- UIkit CSS -->
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+                            
+                            <!-- UIkit JS -->
+                            <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+                            <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+                            
+                            
+                            <title>Sign Up</title>
+</head>
+<body class="bodyy" style="background:linear-gradient(181deg, #0a5c42, transparent);">
+ 
+
+<!-- navbar  bg-success   style="background-color: #19788785;" --> 
+<nav class=" navbar navbar-expand-lg navbar-light bg-success  " style="position: fixed;z-index: 1;width: -webkit-fill-available;">
+  <div class="uk-sticky container-fluid" >
+    <a class="navbar-brand" href="index.html" style="margin-left: 50px;">
+      <img src="images/logo.png" alt=""  style="height: auto; width: auto;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active " style="text-decoration: none;" aria-current="page" href="index.html"  >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="district.html" style="text-decoration: none;" >Districts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#destinations" style="text-decoration: none;" >Destinations</a>
+        </li>
+      </ul>
+    <ul class="navbar-nav  mb-2 mb-lg-0">
+        <li class="nav-item " style="margin-top: -23px;">
+          <a class="nav-link active "  aria-current="page"  style="text-decoration: none;" >       
+          
+
+            <div class="uk-inline" >
+              <button class="uk-button  " type="button" style="border: none;background-color: #198754;"><i class="fa fa-user fa-2x "  ></i>  
+                profile </button>
+              <div  uk-dropdown style="background: linear-gradient(45deg, black, transparent);">
+                <!-- <a class="uk-animation-scale-down"  style="text-decoration: none;color: cornsilk;font-weight: 700;">Create Now</a>  -->
+              <a class="" href="login.html" style="color:#198754 ;font-weight: 900;border: 1px solid white; font-size: 20px;background: linear-gradient(45deg, black, transparent);;">Login</a>
+              <div class="uk-animation-toggle" tabindex="0"><span style="color: floralwhite;">Want to create an account?</span><a href="signup.html" class="uk-animation-scale-down"  style="text-decoration: none;color: cornsilk;font-weight: 700;"> Create Now</a> </div>
+              
+              </div>
+              
+          </div>
+          
+            
+           
+            
+        </a> 
+      </li>
+     
+      
+
+      
+      
+          
+        <li class="nav-item" style="display: flex;">
+ <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light " type="submit">Search</button> 
+          </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+ <!-- navbar -->
+
+<!-- <div style="height: 200px;width: auto;">Create New account</div> -->
+  <form style=" padding-top: 10px;padding: 180px;height: 900px;">
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="row mb-4" style="">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form3Example1" class="form-control" />
+          <label class="form-label" for="form3Example1">First name</label>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form3Example2" class="form-control" />
+          <label class="form-label" for="form3Example2">Last name</label>
+        </div>
+      </div>
+    </div>
+  <!-- Mobile no input -->
+  <div class="form-outline mb-4">
+    <input type="number" id="form3Example3" class="form-control" />
+    <label class="form-label" for="form3Example3">Mobile Number</label>
+  </div>
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="form3Example3" class="form-control" />
+      <label class="form-label" for="form3Example3">Email address</label>
+    </div>
+  
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input type="password" id="form3Example4" class="form-control" />
+      <label class="form-label" for="form3Example4">Password</label>
+    </div>
+  <!--Confirm  Password input -->
+  <div class="form-outline mb-4">
+    <input type="password" id="form3Example4" class="form-control" />
+    <label class="form-label" for="form3Example4">Confirm Password</label>
+  </div>
+    <!-- Checkbox -->
+    <div class="form-check d-flex justify-content-center mb-4">
+      <input
+        class="form-check-input me-2"
+        type="checkbox"
+        value=""
+        id="form2Example3"
+        checked style="background-color: #173d32;"
+      />
+      <label class="form-check-label" style="background-color: #173d32;color: white;" for="form2Example3">
+        Subscribe to our newsletter
+      </label>
+    </div>
+  
+    <!-- Submit button -->
+    <button type="submit" style="width:-webkit-fill-available;background-color: #173d32;" class="btn btn-primary btn-block mb-4">Sign up</button>
+  
+    <!-- Register buttons -->
+    <div class="text-center">
+      <p>or sign up with:</p>
+      <button type="button" class="btn btn-primary btn-floating mx-1" style="background-color: #173d32;">
+        <i class="fab fa-facebook-f"></i>
+      </button>
+  
+      <button type="button" class="btn btn-primary btn-floating mx-1" style="background-color: #173d32;">
+        <i class="fab fa-google"></i>
+      </button>
+  
+      <button type="button" class="btn btn-primary btn-floating mx-1" style="background-color: #173d32;">
+        <i class="fab fa-twitter"></i>
+      </button>
+  
+      <button type="button" class="btn btn-primary btn-floating mx-1" style="background-color: #173d32;">
+        <i class="fab fa-github"></i>
+      </button>
+    </div>
+  </form>    
+  
+<!-- Footer -->
+<footer class="page-footer font-small indigo" style="background:#19788785" >
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left" >
+
+    <!-- Grid row -->
+    <div class="row hwll" >
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+          <img src="images/logo.png"  style="width:100px">
+        </h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p> We are a trusted travel and entertainment companion throughout your journey, supporting our
+               baseline – ‘CRAFTING TRAVEL PASSION TOGETHER’. We promise that you will have the holiday of a lifetime.</p>
+          </li>
+          
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+     
+      <!-- Grid column -->
+      
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+        
+        <br/>
+        
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" style="color:black">Home</a>
+          </li>
+          <li>
+            <a href="#!" style="color:black">About US</a>
+          </li>
+          <li>
+            <a href="#!" style="color:black">FAQ</a>
+          </li>
+          <li>
+            <a href="#!" style="color:black">Keep In Touch</a>
+          </li>
+          <li>
+            <div ><i class="fa fa-phone" aria-hidden="true"></i>
+            
+              +81 388300898
+            </div>
+          </li>
+          <li>
+            <div>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              info@keralatourism.com
+            </div>
+          </li>
+          <li>
+            <div>
+              <i class="fa fa-facebook" aria-hidden="true">
+              </i>
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto" >
+
+        <!-- Links -->
+
+        <br/>
+      <br/>
+   
+        <ul class="list-unstyled" style="color:black">
+          <li>
+            <a href="#!" style="color: black;">Contact Us</a>
+          </li>
+          <li>
+            <a href="#!" style="color: black;">Kerala Tourism
+              <br/>
+              Tourism building,
+              <br/>
+
+              first floor,
+              <br/>
+              Infopark
+              <br/>
+
+              Kakkanad
+            </a>
+          </li>
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <hr style="margin-top: -13px;">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/" style="color: black;">KeralaTourism.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->               
+</body>
+</html>
