@@ -26,3 +26,21 @@
 {
    background-color: #198754;
 }
+
+@media only screen and (max-width: 800px) {
+   .back_text {
+     color: lightblue;
+     font-size: 15px;
+     /* padding-top: 80px; */
+     
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .back_text {
+     color: lightblue;
+     font-size: 10px;
+     /* padding-top: 80px; */
+     
+   }
+}

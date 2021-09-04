@@ -5,3 +5,33 @@
   height: 1px;
   background: #eee;
 } */
+
+
+@media only screen and (max-width: 850px) {
+  .login_img {
+   /* margin: auto; */
+   background-color: rgb(88, 5, 5)  !important;
+   width: 30px !important;
+   display: none !important;
+    /* padding-top: 80px; */
+    
+    
+  }
+}
+@media only screen and (max-width: 800px) {
+  .login_form {
+   /* margin: auto; */
+   background-color: rgb(88, 5, 5)  !important;
+   width: 270px !important;
+    /* padding-top: 80px; */
+    
+  }
+}
+@media only screen and (max-width: 800px) {
+  .login_div {
+   /* margin: auto; */
+  margin-left: -130px;
+    /* padding-top: 80px; */
+    
+  }
+}
